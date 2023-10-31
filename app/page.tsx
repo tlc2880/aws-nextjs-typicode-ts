@@ -9,7 +9,15 @@ export default function Home() {
     <main>
       <h1>Home Page</h1>
       <p>
-        <Link href="/users">Users</Link>
+        <Link href="/users-posts">User Posts</Link>
+      </p>
+      <br />
+      <p>
+        <Link href="/users-todos">User Todos</Link>
+      </p>
+      <br />
+      <p>
+        <Link href="/users-albums">User Albums</Link>
       </p>
     </main>
   )

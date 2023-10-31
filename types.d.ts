@@ -5,6 +5,19 @@ type Post = {
     "body": string,
 }
 
+type Todo = {
+    "userId": number,
+    "id": number,
+    "title": string,
+    "completed": boolean,
+}
+
+type Album = {
+    "userId": number,
+    "id": number,
+    "title": string,
+}
+
 type User = {
     "id": number,
     "name": string,
